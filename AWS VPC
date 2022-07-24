@@ -1,0 +1,9 @@
+Q. What IP address ranges are assigned to a default Amazon VPC?
+
+Default VPCs are assigned a CIDR range of 172.31.0.0/16. Default subnets within a default VPC are assigned /20 netblocks within the VPC CIDR range.
+Q. How many subnets can I create per VPC?
+
+Currently you can create 200 subnets per VPC. If you would like to create more, please submit a case at the support center.
+Q. Is there a limit on how large or small a subnet can be?
+
+The minimum size of a subnet is a /28 (or 14 IP addresses.) for IPv4. Subnets cannot be larger than the VPC in which they are created.
